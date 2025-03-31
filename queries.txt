@@ -1,0 +1,37 @@
+db.tasks.insertMany([
+  {
+    task_id: 1,
+    task_name: "Buy groceries",
+    description: "Buy vegetables and fruits",
+    status: "pending",
+    due_date: new Date("2025-04-05")
+  },
+  {
+    task_id: 2,
+    task_name: "Complete assignment",
+    description: "Finish the MongoDB assignment",
+    status: "in-progress",
+    due_date: new Date("2025-04-06")
+  },
+  {
+    task_id: 3,
+    task_name: "Gym workout",
+    description: "Attend gym for 1 hour",
+    status: "completed",
+    due_date: new Date("2025-04-02")
+  },
+  {
+    task_id: 4,
+    task_name: "Pay electricity bill",
+    description: "Pay bill before the due date",
+    status: "pending",
+    due_date: new Date("2025-04-07")
+  },
+  {
+    task_id: 5,
+    task_name: "Read a book",
+    description: "Read 20 pages of a novel",
+    status: "pending",
+    due_date: new Date("2025-04-10")
+  }
+])
